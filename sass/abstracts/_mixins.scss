@@ -5,3 +5,10 @@
     clear: both;
   }
 }
+
+@mixin absCenter { //This mixin is only used in popup.scss but can be used in other files too. 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
