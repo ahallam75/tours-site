@@ -38,7 +38,8 @@
 
   &__img {
     display: block;
-    width: 101%;
+    width: 100%;
+    height: 280px; // Removes white line under bottom image. 
   }
 
   &__text {
